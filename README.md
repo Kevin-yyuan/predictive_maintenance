@@ -7,7 +7,6 @@ This project aims to predict the probability of a mechanical failure in a fleet 
 -   `data_generation.py`: A Python script to generate the synthetic dataset for this project.
 -   `predictive_maintenance_fixed.ipynb`: A Jupyter notebook that contains the complete analysis, from data loading and EDA to model training and prediction.
 -   `sample_data/`: A directory containing the generated CSV files.
--   `predictive_maintenance.py`: A python script with all the code from the notebook.
 
 ## Getting Started
 
@@ -32,7 +31,7 @@ This project aims to predict the probability of a mechanical failure in a fleet 
     ```
 2.  **Install the required libraries:**
     ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn xgboost faker jupyter
+    pip install -r requirements.txt
     ```
 
 ### How to Run
@@ -56,10 +55,6 @@ This project aims to predict the probability of a mechanical failure in a fleet 
     ```
     Then, open the `predictive_maintenance_fixed.ipynb` file and run the cells in order.
 
-    Alternatively, you can run the python script `predictive_maintenance.py` directly from your terminal:
-    ```bash
-    python predictive_maintenance.py
-    ```
 
 ## Project Overview
 
